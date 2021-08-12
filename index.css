@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.topSection {
+    position: relative;
+}
+
+.heroImage {
+    height: 500px;
+    width: 100%;
+}
+
+.branding {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+        width: 147px;
+        height: 147px;
+        border: solid 1px #707070;
+        background-color: #ffffff;
+        margin: auto;
+        border-radius: 50%;
+        color: #eb2929;
+        font-size: 87px;
+        line-height: 135px;
+        font-family: Poppins;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+
+.logo-internal {
+    color: #192f60;
+}
+
+.tagline {
+    height: 51px;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.search-options {
+    position: absolute;
+    top: 360px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.location-selection {
+    width: 245px;
+    height: 44px;
+    padding: 5px;
+    background-color: #ffffff;
+ 
+    font-size: 18px;
+    margin: 10px;
+    font-family: Poppins;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+ 
+}
+
+.search-box {
+    width: 460px;
+    height: 46px;
+    margin: 10px;
+    padding-left: 35px;
+    background-color: #ffffff;
+    font-size: 18px;
+    
+}
+.s-icon{
+    position: absolute;
+    top: 13px;
+    right: 75px;
+    font-size: 25px;
+}
+.userButtons {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.loginButton {
+    height: 46px;
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.createAccountButton {
+    width: 181px;
+    height: 46px;
+    margin: 0 0 0 26px;
+    padding: 12px 14px 11px 15px;
+    border-radius: 5px;
+    border: solid 1px #ffffff;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.bottomSection {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.qs-heading {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 0;
+}
+
+.qs-subheading {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.qs-heading {
+    height: 43px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+    margin-bottom: 0;
+}
+
+.qs-subheading {
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+   
+}
+
+.qs-box {
+    width: 100%;
+    height: 160px;
+    background-color: #ffffff;
+    position: relative;
+   
+    
+    
+
+}
+
+.qs-box-container {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    height: inherit;
+    padding: 0px;
+}
+
+.qs-image {
+    width: 140px; 
+    height: 160px;
+    margin: 0 29px 0 0;
+}
+
+.qs-box-heading {
+    position: absolute;
+    top: 0;
+    left: 160px;
+    height: 25px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+
+.qs-box-desc {
+    position: absolute;
+    left: 160px;
+    top: 50px;
+    min-width: 180px; 
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8c96ab;
+    
+}
+@media screen and (max-width: 744px) {
+    .location-selection {
+        width: 94%;
+        height: 44px;
+        padding: 5px;
+        background-color: #ffffff;
+        color: #707070;
+        font-size: 18px;
+        margin: 10px;
+     
+    }
+  }
+
+  @media screen and (max-width: 744px) {
+    .search-box {
+        width: 94%;
+        height: 46px;
+        margin: 10px;
+        padding-left: 35px;
+        background-color: #ffffff;
+        font-size: 18px;
+    }
+    
+      
+  }
+  @media screen and (max-width: 744px){
+    .s-icon{
+        position: absolute;
+        top: 78px;
+        right: 210px;
+        font-size: 25px;
+    }
+  }
